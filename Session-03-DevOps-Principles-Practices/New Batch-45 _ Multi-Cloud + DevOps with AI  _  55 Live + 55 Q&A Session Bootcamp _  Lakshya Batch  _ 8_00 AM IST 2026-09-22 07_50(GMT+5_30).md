@@ -202,7 +202,7 @@ These questions are based on the DevOps toolchain covered in the session: planni
 
 ## 1. What is Jira and why is it used in DevOps?
 
-**Answer:** Jira is a project and issue tracking tool. Teams use it to create tickets, stories, tasks, bugs, and epics and to track their progress.
+**Answer:** Jira is a project managment and issue tracking tool. Teams use it to create tickets, stories, tasks, bugs, and epics and to track their progress.
 
 **Use case:** A Scrum team creates a ticket for a new application feature, assigns it to a developer, and tracks it from development to completion.
 
@@ -746,6 +746,58 @@ These questions focus on **which tool to use, why to use it, and when to use it*
 4. **Why:** Why is that tool suitable?
 5. **Use case:** How would you implement it?
 6. **Alternative:** Mention an alternative when relevant.
+
+7. Extra 10 Repetative Question's
+
+8. # 10 Basic DevOps Questions & Answers
+
+## 1. What is DevOps?
+
+**Answer:**  
+DevOps is a combination of **Development (Dev)** and **Operations (Ops)**. It is a culture and set of practices that help development and operations teams work together to build, test, deploy, and maintain applications faster and more reliably.
+
+---
+
+## 2. What are the main goals of DevOps?
+
+**Answer:**  
+The main goals of DevOps are:
+
+- Faster software delivery
+- Automation of repetitive tasks
+- Better collaboration between teams
+- Continuous Integration and Continuous Delivery
+- Faster bug fixing
+- Improved application reliability
+- Continuous monitoring and feedback
+
+---
+
+## 3. What is CI/CD?
+
+**Answer:**  
+CI/CD stands for **Continuous Integration and Continuous Delivery/Deployment**.
+
+- **CI (Continuous Integration):** Developers frequently merge their code into a shared repository, where automated builds and tests are executed.
+- **CD (Continuous Delivery):** Code is automatically prepared and made ready for deployment.
+- **Continuous Deployment:** Code that passes all required checks is automatically deployed to production.
+
+**Example:**
+
+```text
+Developer
+   ↓
+GitHub
+   ↓
+Jenkins
+   ↓
+Build
+   ↓
+Test
+   ↓
+Docker Image
+   ↓
+Kubernetes
 
 **Example:**
 
